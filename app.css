@@ -1,0 +1,41 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+h1{
+    color: rgb(79, 224, 98);
+    background-color: rgb(60, 90, 95);
+    text-align: center; padding-bottom: 3px;
+    padding:10px 0;
+}
+
+
+.ToDo-form{
+    border: 1px solid rgb(32,80,102);
+    width: 370px;
+    padding: 25px 20px;
+    background-color: #f3f3f3; 
+    border-radius: 8px; 
+    margin: 30px auto 10px auto;
+}
+
+.ToDo-form button{
+    margin-top: -3px;
+}
+.ToDo-item{
+    text-align: center; padding-bottom: 3px;
+    margin: 5px 30px 0 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 12px 25px;
+    color: #333;
+    box-shadow: 0 1px 2px #d8d8d8d8;
+
+}
+
+.ToDo-item:hover{
+    font-weight: bold;
+    color:crimson;
+    box-shadow: 0 1px 2px orangered;
+}
